@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.77b6406a20e8d19487d3909672ba1a58.js"
+  "/precache-manifest.a44feca478b328033c30ea0b16723094.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "manarecovue"});
