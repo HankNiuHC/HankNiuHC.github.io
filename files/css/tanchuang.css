@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+.imgShowWin{
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+}
+.imgShowList{
+    width: 100vw;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+    overflow: hidden;
+    z-index: 30;
+}
+.imgShowWin img{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+.imgShowListPagination{
+    bottom:20vw !important;
+}
+.imgShowListPagination .swiper-pagination-bullet{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.imgShowListPagination .swiper-pagination-bullet.swiper-pagination-bullet-active{
+    background-color: rgba(255, 255, 255, 1);
+}

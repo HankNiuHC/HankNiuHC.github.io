@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+* {
+    margin: 0;
+    border: none;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.imgCont{
+    width: 96vw;
+    overflow: hidden;
+    display: block;
+    margin: 20vw 0 0 2vw;
+}
+.imgCont img{
+    width: 30vw;
+    display: block;
+    float: left;
+    height: 30vw;
+    margin-left: 2vw;
+    margin-bottom: 2vw;
+}
